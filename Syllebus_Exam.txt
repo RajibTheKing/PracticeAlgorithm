@@ -1,0 +1,60 @@
+The exam will be written and last 120 minutes.
+
+It will consist in 4 theoretical topics and 2 exercises (algorithmic 
+task, in the same form as the ones discussed in the tutorial, or example 
+of application of an algorithm).
+
+The general topics that will be covered by the theory part are:
+
+1. Toy Problems with Arrays:
+- Algorithm for the Subarray of Maximum Sum (description, correctness, 
+complexity)
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+
+- Algorithm for the Longest Increasing Subsequence (description, 
+correctness, complexity)
+
+
+
+2. Sorting in Linear Time:
+- Lower Bounds for Comparison Sort
+- Counting Sort
+- Radix Sort
+
+3. Order Statistics: Algorithm for determining the number on the i^th 
+position in an array (not ordered!).
+
+4. Amortized Analysis:
+- description of the Accounting Method + short example
+- description of the Potential Method + short example
+
+5. Heaps:
+- describe the Max_Heapify operation of Binary Heaps and its complexity 
+(includes definition of binary heaps and a short proof for the 
+complexity).
+- Priority Queues via Binary Heaps (operations, algorithms, complexity).
+- Fibonacci Heaps: definitions, operations, complexity (here the answer 
+should just contain a list of the operations we discussed + complexity, 
+not description of the algorithms)
+
+6. Primality Testing:
+- Fermat's Test
+- Rabin&Miller's Test.
+
+7. Range Minimum Queries:
+- <O(n log n), O(1)> algorithm
+- Algorithm solving in O(n) Lowest Common Ancestor via RMQ.
+- Cartesian Tree: linear time construction - algorithm and complexity.
+
+https://www.topcoder.com/community/competitive-programming/tutorials/range-minimum-query-and-lowest-common-ancestor/
+
+
+8. Computational Geometry:
+- Graham's Scan: algorithm + complexity.
+- Closest two points in a set: algorithm + complexity.
+
+On Monday you will get all the materials you need for preparing the 
+exam.
+
+Best regards,
+Florin Manea.
