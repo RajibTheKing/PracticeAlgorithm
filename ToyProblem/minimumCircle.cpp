@@ -6,7 +6,8 @@
 //
 //find the minimum D such that the circle centered in (O,Pi) of radious D 
 //that contains at least K points of the set. 
-//complexity O(n)
+//complexity of my solution is: O(n * K)
+//But this is also can be solved withing O(n)
 
 #include <iostream>
 #include <vector> 

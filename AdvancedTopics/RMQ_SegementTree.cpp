@@ -7,8 +7,10 @@ int arr[SZ];
 int segmentTree[SZ * 2 - 1];
 
 //createSegment Tree focusing on finding Range Minimum
+//complexity O(n)
 int createSegmentTree(int curNode, int left, int right)
 {
+    
     if(left == right)
     {
         segmentTree[curNode] = arr[left];
@@ -33,6 +35,7 @@ int createSegmentTree(int curNode, int left, int right)
     
 }
 
+//Query complexity O(lgn)
 int query(int curNode, int left, int right, int i, int j)
 {
     if(i <= left && right <= j)
